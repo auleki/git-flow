@@ -1,0 +1,9 @@
+#!/bin/bash
+echo '😎 starting git flow'
+git status
+echo '🚀 done checking status, now adding files'
+git add . 
+git commit -m "$1"
+echo '🚨 files and commit message added to staging, about to push'
+git push
+echo '✅ yesr! remote repo updated'
